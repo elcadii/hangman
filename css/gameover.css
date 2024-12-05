@@ -1,0 +1,42 @@
+.game_over{
+
+    display: none;
+
+
+    position: fixed;
+    z-index: 100;
+    left: 40%;
+    top: 18%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.game_over .conetner #correctWord{
+    background-color: rgb(206, 206, 206);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(233, 50, 108);
+    font-weight: bold;
+}
+.game_over .conetner button {
+    padding:  8px 15px;
+    width: 80%;
+    font-size:18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius:20px ;
+    background-color: #B0DFFF;
+    cursor: pointer;
+    transition: 3ms;
+}
+.game_over .conetner button:hover{
+    background-color: #40a3e9;
+}

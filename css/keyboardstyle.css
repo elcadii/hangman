@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 8%;
+    RIGHT: 4%;
+}
+
+.keyboard {
+    display: flex;
+    margin: 61% 3px 3px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.clavier-B {
+    width: 50px;
+    height: 50px;
+    background-color: #D4F6FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+.clavier-B:hover {
+    background-color: #C6E7FF;
+}
+
+.clavier-B:active {
+    background-color: #B0DFFF;
+}
+
+.clavier-B.clicked {
+    background-color: #40a3e9;     
+    color: #fff;    
+    pointer-events: none;     
+}
+
+.clavier-B.disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.7;
+    box-shadow: none;
+}
+
+.clavier-B.clicked.disabled {
+    background-color: #cccccc;
+    color: #666666;
+}

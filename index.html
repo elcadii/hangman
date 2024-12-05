@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hund Game</title>
+    <link rel="stylesheet" href="css/keyboardstyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hintdesplay.css" />
+    <link rel="stylesheet" href="css/gameover.css" />
+  </head>
+  <body>
+    <div class="game_over">
+      <div class="conetner">
+        <img src="img/download.png" alt="###" />
+        <h2>the correct word is <span id="correctWord">random</span></h2>
+        <button id="playAgain">play again</button>
+      </div>
+    </div>
+    
+    <div class="hung_man">
+      
+      <div class="pintHangman">
+        <!-- here i start draw stage  -->
+        <div class="stage1"></div>
+        <div class="stage2"></div>
+        <div class="stage3"></div>
+        <div class="stage4"></div>
+        <!-- end of stage -->
+
+        <!-- here i start draw the face -->
+
+        <div>
+          <div class="faceDisply">
+            <div class="l3na9 disply"></div>
+            <div class="face disply">
+            <div class="l3in1">
+              <div class="bo3ra">
+                <div class="loloaa"></div>
+                <div class="loloaa2"></div>
+              </div>
+            </div>
+
+            <div class="l3in2 disply">
+              <div class="bo3ra">
+                <div class="loloaa"></div>
+                <div class="loloaa2"></div>
+              </div>
+            </div>
+
+            <div class="famm disply">
+              <div class="snan"></div>
+            </div>
+          </div>
+          <!-- here is the end od head drow -->
+
+          <!-- here i start draw body -->
+          <div class="bodyy">
+            <div class="lidya1"></div>
+            <div class="lidya2"></div>
+            <div class="tchirt">
+              <div class="lkool"></div>
+            </div>
+          </div>
+
+          <!-- here i start draw hands -->
+          <div class="hand1"></div>
+          <div class="hand2"></div>
+
+          <!-- here i star draw foots -->
+          <div class="foot1">
+            <div class="choose1"></div>
+            <div class="pant"></div>
+          </div>
+
+          <div class="foot2">
+            <div class="choose2"></div>
+            <div class="pant"></div>
+          </div>
+        </div>
+      
+    </div>
+
+    <div class="container" id="container">
+      
+      <div class="game-container">
+
+        <div class="high-score-container">
+          <h1>High Score: <span id="highScore">0</span></h1>
+          <h2>scoore <span id="scoor">0</span></h2>
+        </div>
+        
+        <div class="word-display"></div>
+        <div class="hint"></div>
+        <div class="guesses">Incorrect guesses: <span id="incorrectScoor">0</span>/6</div>
+      </div>
+      <div class="keyboard">
+        <button class="clavier-B">A</button>
+        <button class="clavier-B">B</button>
+        <button class="clavier-B">C</button>
+        <button class="clavier-B">D</button>
+        <button class="clavier-B">E</button>
+        <button class="clavier-B">F</button>
+        <button class="clavier-B">G</button>
+        <button class="clavier-B">H</button>
+        <button class="clavier-B">I</button>
+        <button class="clavier-B">J</button>
+        <button class="clavier-B">K</button>
+        <button class="clavier-B">L</button>
+        <button class="clavier-B">M</button>
+        <button class="clavier-B">N</button>
+        <button class="clavier-B">O</button>
+        <button class="clavier-B">P</button>
+        <button class="clavier-B">Q</button>
+        <button class="clavier-B">R</button>
+        <button class="clavier-B">S</button>
+        <button class="clavier-B">T</button>
+        <button class="clavier-B">U</button>
+        <button class="clavier-B">V</button>
+        <button class="clavier-B">W</button>
+        <button class="clavier-B">X</button>
+        <button class="clavier-B">Y</button>
+        <button class="clavier-B">Z</button>
+      </div>
+    </div>
+
+    <script src="script/word_list.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

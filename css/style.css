@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebedee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.hung_man{
+    width: 40vW;
+}
+.pintHangman{
+    position: absolute;
+    bottom: 12px;
+    left: 5%;
+}
+
+.stage1{
+    position: absolute;
+    width: 2%;
+    height: 12vh;
+    background-color: rgb(154, 51, 4);
+    left: 23.5%;
+}
+.stage2{
+    width: 25%;
+    height: 4vh;
+    background-color: rgb(0, 0, 0);
+}
+.stage3{
+    width: 2%;
+    height: 75vh;
+    background-color: rgb(0, 0, 0);
+
+}
+.stage4{
+    width: 90vw;
+    height: 2vh;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+
+.faceDisply{
+    display: none;
+}
+
+.face{
+    width: 70px;
+    height: 90px;
+    border-radius: 100% / 100% 100% 90% 90%;
+    background-color: #ffa78b;
+    position: absolute;
+    left: 21.3%;
+    top: 10vh;
+    border-bottom: 5px solid rgb(154, 51, 4);
+
+}
+
+
+
+.l3in1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 19px;
+    height: 17px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 18%;
+    top: 27%;
+    border-top: 3px solid #69210d;
+}
+.bo3ra {
+    width: 10px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #69200c;
+}
+.loloaa {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.l3in2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 19px;
+    height: 17px;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 59%;
+    top: 27%;
+    border-top: 3px solid #69210d;
+}
+.famm {
+    position: absolute;
+    bottom: 22px;
+    width: 30px;
+    height: 12px;
+    background-color: #ba4448;
+    left: 31%;
+    border-radius: 40% 40% 10% 10% ;
+}
+.snan {
+    width: 20px;
+    height: 5px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0% 0% 50% 50%;
+}
+.l3na9 {
+    width: 30px;
+    height: 20px;
+    background-color: #fea88b;
+    position: absolute;
+    border-radius: 0% 0% 30% 30%;
+    top: 23vh;
+    left: 23%;
+    z-index: 0;
+}
+
+/* the div insponsabl od bodyyy  */
+.bodyy{
+    display: none;
+}
+.tchirt {
+    position: absolute;
+    left: 20.5%;
+    top: 24vh;
+    width: 87px;
+    height: 123px;;
+    background-color: #c2b4b4;
+    background-image: url(../img/personal-development.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    z-index: 1000;
+    border-radius: 30% 30% 10% 10%;
+}
+
+.lkool {
+    width: 36px;
+    height: 10px;
+    background: #3b8ea1;
+    position: absolute;
+    left: 24px;
+    top: -1px;
+    border-radius: 148% / 47% 55% 278% 278%;
+}
+
+
+.lidya1 {
+    width: 63px;
+    height: 24px;
+    background: #3b8ea1;
+    rotate: 289deG;
+    position: absolute;
+    top: 29VH;
+    left: 17.7%;
+    border-radius: 1px 90% 1px 2px;
+    z-index: 2;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.hand1{
+    display: none;
+}
+.hand1 {
+    width: 2%;
+    height: 12vh;
+    background-color: #fea88b;
+    position: absolute;
+    border-radius: 20px;
+    top: 32vh;
+    left: 18.5%;
+    rotate: 19deg;
+}
+
+
+.lidya2 {
+    width: 63px;
+    height: 24px;
+    background: #3b8ea1;
+    rotate: -110deg;
+    position: absolute;
+    top: 29VH;
+    left: 25.4%;
+    border-radius: 1px 1px 90% 1px;
+    z-index: 2;
+}
+
+.hand2{
+    display: none;
+}
+.hand2 {
+    width: 2%;
+    height: 12vh;
+    background-color: #fea88b;
+    position: absolute;
+    border-radius: 20px;
+    top: 32vh;
+    left: 28.3%;
+    rotate: -21deg;
+}
+
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.foot1{
+    display: none;
+}
+
+.foot1 {
+    width: 2%;
+    height: 12vh;
+    background-color: #fea88b;
+    position: absolute;
+    top: 46vh;
+    left: 21.2%;
+}
+.choose1 {
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 15px;
+    background-color: wheat;
+    border-radius:0px 20px  0 0  ;
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.foot2{
+    display: none;
+}
+
+
+.foot2 {
+    width: 2%;
+    height: 12vh;
+    background-color: #fea88b;
+    position: absolute;
+    top: 46vh;
+    left: 25%;
+}
+
+.pant{
+    width: 100%;
+    height: 25px;
+    background-color: #3b8ea1;
+}
+.choose2{
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 15px;
+    background-color: wheat;
+    border-radius:0px 20px  0 0  ;
+}
