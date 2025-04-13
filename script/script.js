@@ -1,7 +1,8 @@
 const worldDisplay = document.querySelector(".word-display"); 
 const buttons = document.querySelectorAll('.clavier-B');
 const letter = document.querySelectorAll(".letter");
- 
+let dispalScoor = document.getElementById("scoor");
+let displayIncorrectScoor = document.getElementById("incorrectScoor");
 const gameOver = document.getElementsByClassName("game_over");
 const faceDisply = document.getElementsByClassName("faceDisply");
 const displayBody = document.getElementsByClassName("bodyy");
@@ -69,8 +70,6 @@ buttons.forEach(button => {
         console.log(content);
         if (correctWord.toLowerCase().includes(content)) {
             console.log("hello rah kayna");
-
-             
             for (let i = 0; i < correctWord.length; i++) {
                 if (correctWord[i].toLowerCase() === content) {
                     worldDisplay.children[i].innerHTML = content.toUpperCase();
